@@ -3816,7 +3816,7 @@ header.main-header .header-sticky.active{
 @media only screen and (max-width: 1024px){
 
 	.navbar{
-        padding: 20px 0px;
+        padding: 10px 0px;
     }
 	
 	.main-menu ul li{
