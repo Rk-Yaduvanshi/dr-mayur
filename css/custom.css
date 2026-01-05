@@ -1452,9 +1452,9 @@ header.main-header .header-sticky.active{
 }
 
 .solution-plan-body{
-	margin-bottom: 40px;
+	/* margin-bottom: 40px;
 	padding-bottom: 40px;
-	border-bottom: 1px solid var(--dark-divider-color);
+	border-bottom: 1px solid var(--dark-divider-color); */
 }
 
 .solution-plan-body ul{
@@ -1533,6 +1533,7 @@ header.main-header .header-sticky.active{
 .why-choose-us .why-choose-us-box{
 	position: relative;
 	margin-top: 30px;
+	overflow: hidden;
 }
 
 .why-choose-box-1{
@@ -1699,9 +1700,9 @@ header.main-header .header-sticky.active{
 .need-attention-list{
 	display: flex;
 	align-items: center;
-	margin-bottom: 20px;
-	padding: 0 10px 20px 10px;
-	border-bottom: 1px solid var(--divider-color);
+	/* margin-bottom: 20px; */
+	padding: 0 10px 0px 10px;
+	/* border-bottom: 1px solid var(--divider-color); */
 }
 
 .need-attention .col-lg-4:nth-last-child(-n + 3) .need-attention-list{
@@ -1719,7 +1720,7 @@ header.main-header .header-sticky.active{
 }
 
 .need-attention-list .need-attention-content{
-	width: calc(100% - 52px);
+	width: 100%;
 }
 
 .need-attention-list .need-attention-content p{
@@ -2613,11 +2614,12 @@ header.main-header .header-sticky.active{
 
 .therapy-process-item .icon-box{
 	position: relative;
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
 	border-radius: 100%;
 	margin: 0 auto;
 	margin-bottom: 30px;
+	
 }
 
 .therapy-process .col-lg-3:nth-child(even) .therapy-process-item .icon-box:before{
@@ -2653,9 +2655,13 @@ header.main-header .header-sticky.active{
 }
 
 .therapy-process-item .icon-box img{
-	aspect-ratio: 1 / 1;
+	/* aspect-ratio: 1 / 1;
 	object-fit: cover;
+	border-radius: 100%; */
+	max-width: 100px;
+	border: 4px solid var(--dark-divider-color);
 	border-radius: 100%;
+	padding: 12px;
 }
 
 .therapy-process-item .therapy-process-content h3{
@@ -3903,7 +3909,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.hero-img img{
-		max-width: 80%;
+		/* max-width: 80%; */
 	}
 
 	.export-doctor-box{
@@ -4834,9 +4840,9 @@ header.main-header .header-sticky.active{
 
 	.need-attention .col-lg-4:nth-last-child(-n + 3) .need-attention-list,
 	.need-attention .col-lg-4 .need-attention-list{
-		margin-bottom: 20px;
+		/* margin-bottom: 20px;
 		padding: 0px 0px 20px 0px;
-		border-bottom: 1px solid var(--divider-color);
+		border-bottom: 1px solid var(--divider-color); */
 	}
 
 	.team-social-icon ul{
